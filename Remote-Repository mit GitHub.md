@@ -25,7 +25,7 @@ git pull
 echo "add platformio files" >> todo.md
 
 git add .
-git commit -m „todo added“
+git commit -m "todo added"
 git push
 ```
 
@@ -36,7 +36,7 @@ Create a Repo without a readme and licence file
 ```
 mkdir pushlocal
 cd pushlocal
-echo „A great project is in the making“ >> README.md
+echo "A great project is in the making" >> README.md
 git remote add origin git@github.com:git4arduino/pushlocal.git
 
 git push --all
